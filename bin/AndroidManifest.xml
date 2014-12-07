@@ -68,6 +68,21 @@
         </intent-filter>
     
     </activity>
+    
+                    
+                      <activity
+        android:name="datakamus"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.Desyfadliaty.budayasunda.Kamus" />
+        <intent-filter>
+            <action android:name="com.Desyfadliaty.budayasunda.datakamus" />
+ 
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    
+    </activity>
     </application>
 
 </manifest>
