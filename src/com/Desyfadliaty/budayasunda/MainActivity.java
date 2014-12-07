@@ -20,6 +20,7 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
+		
 		ImageButton btn =(ImageButton) findViewById(R.id.imageButton1);
 		ImageButton btn2 =(ImageButton) findViewById(R.id.imageButton2);
 		ImageButton btn3 = (ImageButton) findViewById(R.id.imageButton3);

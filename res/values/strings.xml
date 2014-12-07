@@ -19,5 +19,13 @@
     <string name="sd">Sunda</string>
     <string name="btn">Selanjutnya</string>
     <string name="pengenalan">Pengenalan</string>
+    <string name="quis">Quis Tebak Kata Sunda</string>
+    <string name="Mulai">MULAI</string>
+    <string name="tatarucing">Tatarucingan</string>
+    <string name="pertanyaan">pertanyaan</string>
+    <string name="jawab">Jawab</string>
+    <string name="peunteun">"Peunteun : "</string>
+    <string name="nol">0</string>
+    <string name="Kaluar">Kaluar</string>
 
 </resources>
