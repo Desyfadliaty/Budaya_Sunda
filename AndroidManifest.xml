@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Desyfadliaty.budayasunda"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+        <activity
+            android:name="com.Desyfadliaty.budayasunda.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+        android:name="BudayaSunda"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.Desyfadliaty.budayasunda.MainActivity" />
+        <intent-filter>
+            <action android:name="com.Desyfadliaty.budayasunda.BudayaSunda" />
+ 
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    
+    </activity>
+    
+    
+                <activity
+        android:name="Kamus"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.Desyfadliaty.budayasunda.MainActivity" />
+        <intent-filter>
+            <action android:name="com.Desyfadliaty.budayasunda.Kamus" />
+ 
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    
+    </activity>
+    
+                    <activity
+        android:name="Game"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.Desyfadliaty.budayasunda.MainActivity" />
+        <intent-filter>
+            <action android:name="com.Desyfadliaty.budayasunda.Game" />
+ 
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    
+    </activity>
+    </application>
+
+</manifest>
