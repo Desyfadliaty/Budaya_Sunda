@@ -260,7 +260,9 @@ public class DataGame extends Activity {
 
  	private Button btn1;
  	private Button btn2;
+ 	private Button btn3;
 
+ 	
 	int f;
 	
 	Random rand = new Random(); 
@@ -282,11 +284,12 @@ public class DataGame extends Activity {
 		
 		btn1 = (Button) findViewById(R.id.button1);
 		btn2 = (Button) findViewById(R.id.button2);
+		btn3 = (Button) findViewById(R.id.button3);
 		
 		txt1.setText(pertanyaan[value]);
 		
 			btn1.setOnClickListener(new OnClickListener() {
-			Intent new_intent= new Intent("com.Desyfadliaty.budayasunda.DataGame");
+				Intent new_intent= new Intent("com.Desyfadliaty.budayasunda.DataGame");
 			
 				@Override
 				public void onClick(View v) {
@@ -303,6 +306,8 @@ public class DataGame extends Activity {
 				}
 			});
 			
+			
+			
 			btn2.setOnClickListener(new OnClickListener() {
 				
 				@Override
@@ -310,6 +315,17 @@ public class DataGame extends Activity {
 						Intent mIntent= new Intent(null, null, DataGame.this, MainActivity.class);
 						startActivity(mIntent);
 				
+				}
+			});
+			
+			btn3.setOnClickListener(new OnClickListener() {
+				Intent new_intent= new Intent("com.Desyfadliaty.budayasunda.DataGame");
+		
+				@Override
+				public void onClick(View v) {
+					// TODO Auto-generated method stub
+					startActivity(new_intent);
+					finish();
 				}
 			});
 		}
