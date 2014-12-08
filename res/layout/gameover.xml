@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shadow_lr" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/textView1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center"
+        android:text="@string/eleh" 
+        android:textSize="12pt" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView 
+        android:id="@+id/textView2" 
+        android:layout_gravity="center" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="@string/nyobi" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+         >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:background="@drawable/button_1"
+            android:text="@string/muhun"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/button_1"
+            android:text="@string/moal"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    
+
+    
+
+</FrameLayout>

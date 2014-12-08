@@ -35,7 +35,6 @@ public class Kamus extends Activity {
 			"asin Sekali",
 			"atas",
 			"ayam",
-			
 			"Sahabat",
 			"Sahabat Dekat",
 			"Sakit", 
@@ -161,6 +160,8 @@ public class Kamus extends Activity {
 			"Ulekan", 
 			"Untuk (Kegunaan)",
 			"Untuk",
+			
+			
 			"Usia",
 			"Wajah",
 			"Wanita", 
@@ -272,6 +273,7 @@ public class Kamus extends Activity {
 		   "Sabelas, sawelas",
 		   "Nyebat ;Menyebutkeun = Nyebatkeun",
 		   "Nuju",
+		   
 		   "udur",
 		   "tunggara",
 		   "Walagri",
@@ -365,8 +367,7 @@ public class Kamus extends Activity {
 		   "Hileud",
 		   "Mutu",
 		   "Untuk (Kegunaan) = Paranti",
-		   "Untuk = Pikeun, Kanggo, Jang",
-		   "Urakan/Norak = Kampungan",
+		   "Pikeun, Kanggo, Jang",
 		   "Usia = Yuswa, Umur",
 		   "Raray, Beungeut",
 		   "Mojang, Istri, Awewe",
@@ -374,6 +375,8 @@ public class Kamus extends Activity {
 		   "Kelir",
 		   "Muhun, Heueuh",
 		   "Anu",
+		   
+		   
 		   "Anu Dianggo, Nu Dipake",
 		   "Abdi, Kuring, Urang (bahasa kasar)",
 		   "Anjeun, Maneh (bahasa kasar)",
