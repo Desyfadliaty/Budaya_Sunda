@@ -108,7 +108,7 @@ public class DataGame extends Activity {
  			"Sato naon anu teu bisaeun mundur? ",
  			"Bangku naon anu bisa didahar? ",
  			"Cing pangnyebutkeun 5 rupa ngaran bungbuahan anu sok didahar,sakali nyebut! ",
- 			"Batu naon anu teu aya di cai? (Batu garing)",
+ 			"Batu naon anu teu aya di cai?",
  			"Oray naon anu teu bisaeun ngaleor? ",
  			"Jalma naon anu sukuna tilu panonna opat?",
  			"Di luar koneng, di jero bodas, nu apaleun monyet. ",
@@ -267,6 +267,7 @@ public class DataGame extends Activity {
 	
 	Random rand = new Random(); 
 	int value;
+	int g;
 	
  	@Override
 	protected void onCreate(Bundle savedInstanceState) {	
@@ -274,7 +275,7 @@ public class DataGame extends Activity {
 		setContentView(R.layout.data_game);
 
 		
-		value = rand.nextInt(114);
+		value = rand.nextInt(112);
 		
 		txt1 = (TextView) findViewById(R.id.textView1);
 		txt2 = (TextView) findViewById(R.id.textView2);
@@ -286,6 +287,9 @@ public class DataGame extends Activity {
 		btn2 = (Button) findViewById(R.id.button2);
 		btn3 = (Button) findViewById(R.id.button3);
 		
+		g=3;
+		txt3.setText(String.valueOf(g));
+		
 		txt1.setText(pertanyaan[value]);
 		
 			btn1.setOnClickListener(new OnClickListener() {
@@ -294,16 +298,25 @@ public class DataGame extends Activity {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
-					for(int i=0; i<pertanyaan.length; i++){
+									
 						if(edt1.getText().toString().toLowerCase().equals(jawab[value].toLowerCase())){		
 							txt2.setText("Leres Agan !! ");
 							startActivity(new_intent);
 							finish();
 						}else{
 							txt2.setText("Punten, Lepat Agan ");
+							
+							g = g-1;
+				
+							if(g != 0){
+								txt3.setText(String.valueOf(g));
+							}else{
+								Intent nintent= new Intent("com.Desyfadliaty.budayasunda.GameOver");
+								startActivity(nintent);								
+							}
 						}	
 					}	
-				}
+				
 			});
 			
 			
