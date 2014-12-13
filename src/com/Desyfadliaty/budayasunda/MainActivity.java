@@ -25,7 +25,7 @@ public class MainActivity extends ActionBarActivity {
 		ImageButton btn2 =(ImageButton) findViewById(R.id.imageButton2);
 		ImageButton btn3 = (ImageButton) findViewById(R.id.imageButton3);
 		
-		 btn.setOnClickListener(new OnClickListener() {
+		 btn2.setOnClickListener(new OnClickListener() {
 			 
 				@Override
 				public void onClick(View v) {
@@ -34,7 +34,7 @@ public class MainActivity extends ActionBarActivity {
 				}
 			});
 		 
-		 btn2.setOnClickListener(new OnClickListener() {
+		 btn.setOnClickListener(new OnClickListener() {
 			 
 			@Override
 			public void onClick(View arg0) {
