@@ -15,4 +15,9 @@ public class AlatMusik extends BudayaSunda {
 
 		
 	}
+	
+	public void karinding() {
+		//Kodingan desy
+	
+	}
 }
