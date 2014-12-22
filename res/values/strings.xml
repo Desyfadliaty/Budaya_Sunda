@@ -27,5 +27,32 @@
     <string name="peunteun">"Peunteun : "</string>
     <string name="nol">0</string>
     <string name="Kaluar">Kaluar</string>
+    <string name="nu">Gentos Nu Sejen</string>
+    <string name="Nyawa">Nyawa Na :</string>
+    <string name="zero">0</string>
+    <string name="eleh">euleuuuhh eleehh....</string>
+    <string name="nyobi">Nyobi Deui?</string>
+    <string name="muhun">Muhun</string>
+    <string name="moal">Moal</string>
+    <string name="tentangDegung">Salah satu alat musik tradisional Sunda yang masih ada hingga saat ini adalah degung. Degung disebut dengan nama gamelan oleh Suku Jawa. Namun nada dan cara memainkan seperangkat alam musik ini berbeda dengan cara memainkan gamelan. Satu perangkat degung terdiri dari berbagai instrumen sepertu saron, demung, gong, jenglong, kendang, dan suling.</string>
+    <string name="Degung">1. Degung</string>
+    <string name="tentangKecapi">Kecapi merupakan alat musik yang dimainkan dengan cara dipetik. Alat ini berbentuk kotak kayu yang memiliki dawai berjajar di atasnya. Kotak kayu ini berfungsi sebagai resonator Kecapi. Kecapi memiliki nada yang mendayu dan menimbulkan sensai kangen, damai, sekaligus kegetiran.</string>
+    <string name="Kecapi">2. Kecapi</string>
+    <string name="Suling">3. Suling</string>
+    <string name="tentangSuling">Alat musik tradisional Sunda lainnya adalah suling. Suling merupakan alat musik tiup. Suling terbuat dair bambu atau kayu yang dilubangi. Suling biasanya terdiri dari empat lubang. Kita hanya perlu meniup alat ini sambil menutup lubangnya dengan jari untuk menimbulkan nada-nada yang berbeda.</string>
+    <string name="Angklung">4. Angklung</string>
+    <string name="tentangAngklung">Angklung merupakan alat musik khas Sunda yang sangat terkenal. Angklung terbuat dari kayu atau bambu dan dimainkan dengan cara digerakkan ke samping. Angklung memiliki berbagai nada yang disesuaikan dengan ukurannya. Angklung biasanya dimainkan secara berkelompok dan membentuk alunan lagu yang indah dan menenangkan.</string>
+    <string name="Karinding">5. Karinding</string>
+    <string name="tentangKarinding">Karinding merupakan salah satu alat musik lain yang terbuat dari bambu. Karinding banyak dikenal di berbagai daerah di Jawa Barat Seperti Malangbong (Garut), Tasikmalaya, Cikalong Kulon (Cianjur), dan Citamiang. Di beberapa daerah, karinding terbuat dari pelepah pohon aren. Alat musik tradisional Sunda ini dibunyikan dengan cara ditempatkan di mulut kemudian digetarkan dengan jari. Karinding biasa dimainkan bersama-sama.</string>
+    <string name="alatMusik">Alat Musik</string>
+    <string name="Menu">Menu</string>
+    <string name="tentangSunda">Budaya Sunda adalah budaya yang tumbuh dan hidup dalam masyarakat Sunda. Budaya Sunda dikenal dengan budaya yang sangat menjunjung tinggi sopan santun. Pada umumnya karakter masyarakat Sunda adalah periang, ramah-tamah (soméah), murah senyum, lemah-lembut, dan sangat menghormati orang tua. Itulah cermin budaya masyarakat Sunda.</string>
+    <string name="BudSun">Budaya Sunda</string>
+    <string name="etosBud">Etos budaya</string>
+    <string name="tentos">Kebudayaan Sunda termasuk salah satu kebudayaan tertua di Nusantara. Kebudayaan Sunda yang ideal kemudian sering kali dikaitkan sebagai kebudayaan masa Kerajaan Sunda. Ada beberapa ajaran dalam budaya Sunda tentang jalan menuju keutamaan hidup. Etos dan watak Sunda itu adalah cageur, bageur, singer dan pinter, yang dapat diartikan \"sembuh\" (waras), baik, sehat (kuat), dan cerdas. Kebudayaan Sunda juga merupakan salah satu kebudayaan yang menjadi sumber kekayaan bagi bangsa Indonesia yang dalam perkembangannya perlu di lestarikan. Sistem kepercayaan spiritual tradisional Sunda adalah Sunda Wiwitan yang mengajarkan keselarasan hidup dengan alam. Kini, hampir sebagian besar masyarakat Sunda beragama Islam, namun ada beberapa yang tidak beragama Islam, walaupun berbeda namun pada dasarnya seluruh kehidupan di tujukan untuk kebaikan di alam semesta.</string>
+    <string name="nilai">Kebudayaan Sunda memiliki ciri khas tertentu yang membedakannya dari kebudayaan–kebudayaan lain. Secara umum masyarakat Jawa Barat atau Tatar Sunda, dikenal sebagai masyarakat yang lembut, religius, dan sangat spiritual. Kecenderungan ini tampak sebagaimana dalam pameo silih asih, silih asah dan silih asuh; saling mengasihi (mengutamakan sifat welas asih), saling menyempurnakan atau memperbaiki diri (melalui pendidikan dan berbagi ilmu), dan saling melindungi (saling menjaga keselamatan). Selain itu Sunda juga memiliki sejumlah nilai-nilai lain seperti kesopanan, rendah hati terhadap sesama, hormat kepada yang lebih tua, dan menyayangi kepada yang lebih kecil. Pada kebudayaan Sunda keseimbangan magis di pertahankan dengan cara melakukan upacara-upacara adat sedangkan keseimbangan sosial masyarakat Sunda melakukan gotong-royong untuk mempertahankannya.</string>
+    <string name="nilaiBud">Nilai-nilai budaya</string>
+    <string name="Kesenian">Kesenian</string>
+    <string name="tentangKese">Budaya Sunda memiliki banyak kesenian, diantaranya adalah kesenian sisingaan, tarian khas Sunda, wayang golek, permainan anak-anak, dan alat musik serta kesenian musik tradisional Sunda yang bisanya dimainkan pada pagelaran kesenian.</string>
 
 </resources>

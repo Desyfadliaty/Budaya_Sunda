@@ -14,9 +14,33 @@
         android:layout_marginTop="20dp" >
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_gravity="top"
+                android:background="@drawable/button_1"
+                android:text="@string/Kaluar"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_1"
+                android:text="@string/nu"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
             android:orientation="vertical" >
 
             <LinearLayout
@@ -27,8 +51,7 @@
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="20dp"
-                    android:text="@string/peunteun"
+                    android:text="@string/Nyawa"
                     android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 <TextView
@@ -36,15 +59,27 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="@string/nol"
-                    android:textAppearance="?android:attr/textAppearanceLarge" />
+                    android:text="@string/zero"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text=""
+                android:textSize="13pt"
+                android:layout_marginTop="30dp"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/pertanyaan"
+                android:textSize="10pt"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <EditText
@@ -65,22 +100,7 @@
                 android:text="@string/jawab"
                 android:textColor="#ffffff" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
         </LinearLayout>
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="80dp"
-            android:layout_height="50dp"
-            android:layout_gravity="bottom"
-            android:background="@drawable/button_1"
-            android:text="@string/Kaluar"
-            android:textColor="#ffffff" />
 
     </FrameLayout>
 

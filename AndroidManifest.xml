@@ -74,9 +74,35 @@
         android:label="@string/app_name" >
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value="com.Desyfadliaty.budayasunda.Game" />
+            android:value="com.Desyfadliaty.budayasunda.MainActivity" />
         <intent-filter>
             <action android:name="com.Desyfadliaty.budayasunda.DataGame" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    
+    </activity>
+    
+       <activity
+        android:name="GameOver"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.Desyfadliaty.budayasunda.DataGame" />
+        <intent-filter>
+            <action android:name="com.Desyfadliaty.budayasunda.GameOver" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    
+    </activity>
+    
+              <activity
+        android:name="AlatMusik"
+        android:label="@string/app_name" >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.Desyfadliaty.budayasunda.BudayaSunda" />
+        <intent-filter>
+            <action android:name="com.Desyfadliaty.budayasunda.AlatMusik" />
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
     
